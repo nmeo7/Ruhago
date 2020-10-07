@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6ff47e2e293fa734ea198a6f136a0078
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - destroyEffect: {fileID: 3104245768012216099, guid: e9c03698d9e50f84b978925eb46035fb, type: 3}
+  - animator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
