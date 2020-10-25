@@ -78,6 +78,7 @@ public class KickScript : MonoBehaviour
         if (c.collider.tag == "goal")
         {
             Debug.Log("You Won, Mothafucka!");
+            FindObjectOfType<AudioManager>().Play("cheer", .7f);
             animator.SetTrigger("cheer");
             Destroy (Instantiate(destroyEffect, c.gameObject.transform.position, c.gameObject.transform.rotation) as GameObject, 2);
             Destroy(c.gameObject);
